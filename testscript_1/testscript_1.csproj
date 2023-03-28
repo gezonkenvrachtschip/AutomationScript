@@ -45,8 +45,8 @@
     <Content Include=".editorconfig" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="new.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="testscript_1.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Skyline.DataMiner.Core.DataMinerSystem.Automation">
