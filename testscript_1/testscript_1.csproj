@@ -45,8 +45,8 @@
     <Content Include=".editorconfig" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="new.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="testscript.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Skyline.DataMiner.Core.DataMinerSystem.Automation">
@@ -54,6 +54,9 @@
     </PackageReference>
     <PackageReference Include="Skyline.DataMiner.Dev.Automation">
       <Version>10.1.0.6</Version>
+    </PackageReference>
+    <PackageReference Include="Skyline.DataMiner.Empower.Library.Room3">
+      <Version>1.0.4</Version>
     </PackageReference>
     <PackageReference Include="StyleCop.Analyzers">
       <Version>1.1.118</Version>

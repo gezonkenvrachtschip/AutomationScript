@@ -58,6 +58,7 @@ namespace testscript_1
 	using Empower.Library.Room3;
 	using Skyline.DataMiner.Automation;
 	using Skyline.DataMiner.Core.DataMinerSystem.Automation;
+	using Skyline.DataMiner.Net.Messages.SLDataGateway;
 
 	/// <summary>
 	/// Represents a DataMiner Automation script.
@@ -69,11 +70,17 @@ namespace testscript_1
 		/// </summary>
 		/// <param name="engine">Link with SLAutomation process.</param>
 
+		public void Run(IEngine engine)
 
+		{
 
-		var order = OrderFactory.CreateOrder("Order 1");
-		order.Dispatch("test");
+			var order = OrderFactory.CreateOrder("Order 1");
+			order.Dispatch("ti were were da were");
+
+		}
+
 		
+
 
 
 
